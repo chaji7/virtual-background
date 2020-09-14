@@ -1,0 +1,15 @@
+.custom-radio{
+  display:inline-flex;
+}
+.custom-radio input[type=radio] {
+  display: none;
+}
+.custom-radio input[type=radio]:checked + label {
+  border: 3px solid #FFFF00;
+}
+#canvas{
+  border: 3px solid;
+}
+#qr-hidden{
+  display: none;
+}
